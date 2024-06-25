@@ -1,0 +1,180 @@
+@font-face {
+    font-family: 'Futura PT';
+    src: url('FuturaPT-Bold.eot');
+    src: url('FuturaPT-Bold.eot?#iefix') format('embedded-opentype'),
+        url('FuturaPT-Bold.woff2') format('woff2'),
+        url('FuturaPT-Bold.woff') format('woff'),
+        url('FuturaPT-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura PT';
+    src: url('FuturaPT-Bold_1.eot');
+    src: url('FuturaPT-Bold_1.eot?#iefix') format('embedded-opentype'),
+        url('FuturaPT-Bold_1.woff2') format('woff2'),
+        url('FuturaPT-Bold_1.woff') format('woff'),
+        url('FuturaPT-Bold_1.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura PT';
+    src: url('FuturaPT-Bold_2.eot');
+    src: url('FuturaPT-Bold_2.eot?#iefix') format('embedded-opentype'),
+        url('FuturaPT-Bold_2.woff2') format('woff2'),
+        url('FuturaPT-Bold_2.woff') format('woff'),
+        url('FuturaPT-Bold_2.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura PT Demi';
+    src: url('FuturaPT-Demi.eot');
+    src: url('FuturaPT-Demi.eot?#iefix') format('embedded-opentype'),
+        url('FuturaPT-Demi.woff2') format('woff2'),
+        url('FuturaPT-Demi.woff') format('woff'),
+        url('FuturaPT-Demi.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura PT Book';
+    src: url('FuturaPT-Book.eot');
+    src: url('FuturaPT-Book.eot?#iefix') format('embedded-opentype'),
+        url('FuturaPT-Book.woff2') format('woff2'),
+        url('FuturaPT-Book.woff') format('woff'),
+        url('FuturaPT-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura PT';
+    src: url('FuturaPT-Light.eot');
+    src: url('FuturaPT-Light.eot?#iefix') format('embedded-opentype'),
+        url('FuturaPT-Light.woff2') format('woff2'),
+        url('FuturaPT-Light.woff') format('woff'),
+        url('FuturaPT-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura PT Medium';
+    src: url('FuturaPT-Medium.eot');
+    src: url('FuturaPT-Medium.eot?#iefix') format('embedded-opentype'),
+        url('FuturaPT-Medium.woff2') format('woff2'),
+        url('FuturaPT-Medium.woff') format('woff'),
+        url('FuturaPT-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura PT Book';
+    src: url('FuturaPT-Book_1.eot');
+    src: url('FuturaPT-Book_1.eot?#iefix') format('embedded-opentype'),
+        url('FuturaPT-Book_1.woff2') format('woff2'),
+        url('FuturaPT-Book_1.woff') format('woff'),
+        url('FuturaPT-Book_1.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura PT Demi';
+    src: url('FuturaPT-Demi_1.eot');
+    src: url('FuturaPT-Demi_1.eot?#iefix') format('embedded-opentype'),
+        url('FuturaPT-Demi_1.woff2') format('woff2'),
+        url('FuturaPT-Demi_1.woff') format('woff'),
+        url('FuturaPT-Demi_1.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura PT';
+    src: url('FuturaPT-Light_1.eot');
+    src: url('FuturaPT-Light_1.eot?#iefix') format('embedded-opentype'),
+        url('FuturaPT-Light_1.woff2') format('woff2'),
+        url('FuturaPT-Light_1.woff') format('woff'),
+        url('FuturaPT-Light_1.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura PT';
+    src: url('FuturaPT-Medium_1.eot');
+    src: url('FuturaPT-Medium_1.eot?#iefix') format('embedded-opentype'),
+        url('FuturaPT-Medium_1.woff2') format('woff2'),
+        url('FuturaPT-Medium_1.woff') format('woff'),
+        url('FuturaPT-Medium_1.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura PT Demi';
+    src: url('FuturaPT-Demi_2.eot');
+    src: url('FuturaPT-Demi_2.eot?#iefix') format('embedded-opentype'),
+        url('FuturaPT-Demi_2.woff2') format('woff2'),
+        url('FuturaPT-Demi_2.woff') format('woff'),
+        url('FuturaPT-Demi_2.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura PT Book';
+    src: url('FuturaPT-Book_2.eot');
+    src: url('FuturaPT-Book_2.eot?#iefix') format('embedded-opentype'),
+        url('FuturaPT-Book_2.woff2') format('woff2'),
+        url('FuturaPT-Book_2.woff') format('woff'),
+        url('FuturaPT-Book_2.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura PT';
+    src: url('FuturaPT-Medium_2.eot');
+    src: url('FuturaPT-Medium_2.eot?#iefix') format('embedded-opentype'),
+        url('FuturaPT-Medium_2.woff2') format('woff2'),
+        url('FuturaPT-Medium_2.woff') format('woff'),
+        url('FuturaPT-Medium_2.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura PT';
+    src: url('FuturaPT-Light_2.eot');
+    src: url('FuturaPT-Light_2.eot?#iefix') format('embedded-opentype'),
+        url('FuturaPT-Light_2.woff2') format('woff2'),
+        url('FuturaPT-Light_2.woff') format('woff'),
+        url('FuturaPT-Light_2.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+

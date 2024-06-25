@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <link  rel="stylesheet"href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="fonts/stylesheet.css">
+    <link rel="icon" href="img/wave.png" />
+  
+
+    <title>Производитель электронных компонентов</title>
+</head>
+
+<body>
+    <div class="custom-cursor" id="customCursor"> </div>
+
+    <div class="wrapper">
+
+        <div class="main-content">
+    <header>
+            <div class="container">
+         
+                <a href="#">
+                    <img src="img/logo.svg" alt="logo" width="131px" />
+                </a>
+
+                <nav class="nav">
+                    <ul class="menu">
+                        <li><a href="#">О компании</a></li>
+                        <li><a href="#">Каталог</a></li>
+                        <li><a href="#">Каталог производителя</a></li>
+                        <li><a href="#">Сертификаты</a></li>
+                        <li><a href="#">Производители</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                     <!-- Кнопка для открытия модального окна -->
+  
+                </nav>
+
+                <div class="header-contact">
+                    <a class="header-phone" href="tel:+70000000000">+7 (000) 000-00-00</a>
+					<a class="header-mail" href="mailto:test@test.ru">test@test.ru</a>
+
+                </div>
+            </div>
+
+            <div class="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+    </header>
+        <h1> производитель электронных компонентов </h1>
+        <p> 25 заводов поставщиков </p>
+
+        <div class="search-container">
+            <input type="text" class="search-input" placeholder="Поиск по каталогу">
+            <button class="search-button" tabindex="-1">Поиск</button>
+        </div>
+
+    </div> <!--закрывается див контента основного блока и хэдера-->
+
+
+    <section class="catalog">
+        <h2>Каталог</h2>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide custom-cursor-active"> 
+                    <img src="img/pic1.jpg">
+                    <p>Активные компоненты</p>
+                </div>
+                <div class="swiper-slide custom-cursor-active">
+                    <img src="img/pic2.jpg">
+                    <p>Пассивные компоненты</p>
+                </div>
+                <div class="swiper-slide custom-cursor-active">
+                    <img src="img/pic3.jpg">
+                    <p>Светодиоды <br> и светодиодные индикаторы</p>
+                </div>
+                <div class="swiper-slide custom-cursor-active">
+                    <img src="img/pic4.jpg">
+                    <p>Установочные изделия</p>
+                </div>
+                <div class="swiper-slide custom-cursor-active">
+                    <img src="img/pic5.jpg">
+                    <p>Резонаторы и генераторы</p>
+                </div>
+                <div class="swiper-slide custom-cursor-active">
+                    <img src="img/pic6.jpg">
+                    <p>Акустические компоненты</p>
+                </div>
+                <div class="swiper-slide custom-cursor-active">
+                    <img src="img/pic7.jpg">
+                    <p>Реле</p>
+                </div>
+                <div class="swiper-slide custom-cursor-active">
+                    <img src="img/pic8.jpg">
+                    <p>Кабели и аксессуары</p>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-buttons">
+                <div class="swiper-button-prev"><img src="img/arrow.svg" width="40px"></div>
+                <div class="swiper-button-next"><img src="img/arrow.svg" width="40px"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="map">
+        <div class="map-container">
+            <div class="map-image-container">
+                <img class="map-image" src="img/map1.svg" alt="Map">
+                <div class="map-regions">
+                    <img src="img/reg1.svg" alt="Region 1" class="map-region region1 custom-cursor-active">
+                    <img src="img/reg2.svg" alt="Region 2" class="map-region region2 custom-cursor-active">
+                    <img src="img/reg3.svg" alt="Region 3" class="map-region region3 custom-cursor-active">
+                    <img src="img/reg4.svg" alt="Region 4" class="map-region region4 custom-cursor-active">
+                    <img src="img/reg5.svg" alt="Region 5" class="map-region region5 custom-cursor-active">
+                    <img src="img/reg6.svg" alt="Region 6" class="map-region region6 custom-cursor-active">
+                    <img src="img/reg7.svg" alt="Region 7" class="map-region region7 custom-cursor-active">
+                </div>
+            </div>
+            <div class="map-text">
+                <h3>География поставок</h3>
+                <div class="line"></div>
+                <p>Мы работаем только с надежными <br> транспортными компаниями и организуем <br> доставку в любой регион России или за рубеж</p>
+            </div>
+
+            <div class="map-mobile">
+                <img src="img/map_mob.png" >
+
+            </div>
+
+        </div> 
+    </section>
+
+    <section class="about">
+        <div class="about-container">
+            <h2 class="about-heading">О компании</h2>
+            <p class="about-description">С 1996 года мы занимаемся оптовыми поставками электронных <br>компонентов от ведущих заводов изготовителей из Европы и Азии для <br>Российских производителей.</p>
+    
+            <div class="about-blocks">
+                <div class="about-block-bg">
+                    <img src="img/wave.png" alt="Background 1">
+                </div>
+                <div class="about-block">
+                    <div class="about-block-icon">
+                        <img src="img/house.svg" alt="Icon 1">
+                    </div>
+                    <p class="about-block-text">Изделия в наличии, на складе СПБ и Мск</p>
+                   
+                </div>
+                <div class="about-line"></div>
+                <div class="about-block">
+                    <div class="about-block-icon">
+                        <img src="img/delivery.svg" alt="Icon 2">
+                    </div>
+                    <p class="about-block-text">Комплексные поставки, предлагаем аналоги</p>
+                    
+                </div>
+                <div class="about-line"></div>
+                <div class="about-block">
+                    <div class="about-block-icon">
+                        <img src="img/puzzle.svg" alt="Icon 3">
+                    </div>
+                    <p class="about-block-text">Официальные дистрибьюторы 12 заводов-изготовителей</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="feedback">
+        <h2>Закажите обратный звонок</h2>
+        <p>Более 150 крупнейших компаний уже доверили нам комплектацию. Давайте работать вместе!</p>
+
+        <form method="get" action="thanks.php" name="contact-form" id="contact-form" onsubmit="return validateForm()">
+            <input name="name" id="name" type="text" class="form-control" placeholder="Имя" required>
+            <input name="phone" id="phone" type="tel" class="form-control" placeholder="Телефон" required>
+            
+            <input type="submit" id="submit" name="send" value="Отправить">
+        </form>
+<span id="phone-error" class="error-message" style="display: none; color: red;"></span>
+        <p>Нажимая на кнопку, вы даете согласие на обработку <a href=""> персональных данных </a> и соглашаетесь с условиями <a href=""> пользовательского соглашения </a></p>
+
+    </section>
+
+    <footer class="footer">
+        <div class="footer-column">
+            <img src="img/logo.svg" alt="logo">
+            
+          <div class="adress-1">
+            <p>
+                Санкт-Петербург, ул. Тестовая д. 0 офис 0
+                <br>
+                <a class="footer-phone" href="tel:+70000000000">+7 (000) 000-00-00</a>
+                <br>
+                <a class="footer-mail" href="mailto:test@test.ru">test@test.ru</a>
+            </p>
+          </div>
+
+          <div class="adress-2">
+            <p>
+                Санкт-Петербург, ул. Тестовая д. 0 офис 0
+                <br>
+                <a class="footer-phone" href="tel:+70000000000">+7 (000) 000-00-00</a>
+                <br>
+                <a class="footer-mail" href="mailto:test@test.ru">test@test.ru</a>
+            </p>
+          </div>
+
+        </div>
+
+        <div class="footer-column footer-column2">
+            <ul>
+                <li class="column-title">Меню</li>
+                <li> <a href="">Главная</a></li>
+                <li><a href="">О компании</a></li>
+                <li><a href="">Каталог производителя</a></li>
+                <li><a href="">Сертификаты</a></li>
+                <li><a href="">Контакты</a></li>
+            </ul>
+       
+            <ul class="docs">
+                <li>
+                    <a href="">Карта сайта</a>
+                </li>
+                <li>
+                    <a href="">Политика конфиденциальности</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="footer-column double-column">
+            <div>
+            <ul>
+              <li class="column-title"> Каталог</li> 
+
+                <li><a class="custom-cursor-active" href="">Активные компоненты</a></li>
+                <li><a class="custom-cursor-active" href="">Пассивные компоненты</a></li>
+                <li><a class="custom-cursor-active" href="">Светодиоды и светодиодные индикаторы</a></li>
+                <li><a class="custom-cursor-active" href=""> Установочные изделия</a></li>
+                <li><a class="custom-cursor-active" href=""> Резонаторы и генераторы компоненты</a></li>
+                <li><a class="custom-cursor-active" href=""> Акустические компоненты</a></li>
+                <li><a class="custom-cursor-active" href=""> Реле</a></li>
+                <li><a class="custom-cursor-active" href=""> Вентиляторы и аксессуары</a></li>
+                <li><a class="custom-cursor-active" href=""> Кабели, провода, аксессуары</a></li>
+                <li><a class="custom-cursor-active" href=""> Оборудование и материалы для пайки</a></li>
+            </ul>
+        </div>
+
+            <div>
+            <ul>
+                <li></li>
+                <li><a class="custom-cursor-active" href="">Элементы питания и аксессуары</a></li>
+                <li><a class="custom-cursor-active"  href="">Дисплеи жидкокристаллические</a></li>
+                <li><a class="custom-cursor-active" href=""> Электродвигатели</a></li>
+                <li><a class="custom-cursor-active" href=""> Антенны</a></li>
+                <li><a class="custom-cursor-active" href=""> Готовые изделия</a></li>
+                <li><a class="custom-cursor-active" href=""> Разрядники</a></li>
+                <li><a class="custom-cursor-active" href=""> Датчики</a></li>
+                
+
+            </ul>
+        </div>
+        </div>
+
+    </footer>
+
+    <div class="dark"></div>
+    </div> <!--закрывается див обертки-->
+
+    <button class="fixed-button">Cart</button>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+       const swiper = new Swiper('.swiper-container', {
+    slidesPerView: 2,
+    spaceBetween: 10,
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+    breakpoints: {
+        768: {
+            slidesPerView: 2,
+            slidesPerGroup: 2,
+            spaceBetween: 2,
+        },
+    },
+});
+
+const phoneInput = document.getElementById('phone');
+const phoneError = document.getElementById('phone-error');
+
+// Регулярное выражение для проверки формата номера телефона
+const phonePattern = /^(8|\+7)\d{10}$/;
+
+// Функция для валидации номера телефона
+function validatePhoneNumber() {
+    const phoneValue = phoneInput.value.trim();
+
+    // Ограничение длины номера до 11 символов
+    if (phoneValue.length > 11) {
+        phoneError.textContent = 'Номер телефона не должен превышать 11 символов';
+        phoneError.style.display = 'block';
+        return;
+    }
+
+    if (phoneValue === '') {
+        phoneError.textContent = 'Введите номер телефона';
+        phoneError.style.display = 'block';
+    } else if (!phonePattern.test(phoneValue)) {
+        phoneError.textContent = 'Некорректный формат номера телефона';
+        phoneError.style.display = 'block';
+    } else {
+        phoneError.style.display = 'none';
+        document.forms['contact-form'].submit(); // Отправка формы при успешной валидации
+    }
+}
+
+// Добавление обработчика события для поля ввода телефона
+phoneInput.addEventListener('input', function() {
+    // Удаление всех символов, кроме цифр и +
+    this.value = this.value.replace(/[^+\d]/g, '');
+
+    // Валидация номера телефона
+    validatePhoneNumber();
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+    const burger = document.querySelector('.burger');
+    const nav = document.querySelector('.nav');
+
+    burger.addEventListener('click', function() {
+        burger.classList.toggle('active');
+        nav.classList.toggle('active');
+    });
+});
+
+</script>
+
+
+
+</body>
+</html>
